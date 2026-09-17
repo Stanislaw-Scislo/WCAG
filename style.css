@@ -1,0 +1,167 @@
+/* Grunnleggende oppsett */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 1.6;
+}
+
+/* Godt synlig fokusring for tastaturbrukere, uavhengig av bakgrunnsfarge */
+a:focus-visible {
+  outline: 3px solid #1a1a1a;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.85);
+  border-radius: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: #1a1a1a;
+  color: #ffffff;
+  padding: 10px 16px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  left: 10px;
+}
+
+header {
+  background: #222831;
+  color: #f5f5f5;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+header p {
+  max-width: 700px;
+  margin: 8px auto 0 auto;
+}
+
+nav {
+  background: #393e46;
+  padding: 12px 16px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+main {
+  display: block;
+}
+
+section {
+  padding: 48px 20px;
+}
+
+.section-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 1.7rem;
+  margin-top: 0;
+}
+
+section h3 {
+  font-size: 1.2rem;
+}
+
+section a {
+  text-decoration: underline;
+}
+
+figure {
+  margin: 24px 0 0 0;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 14px;
+  border: 3px solid currentColor;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
+
+/* Del 1 */
+#del1 {
+  background-color: #cc9900;
+  color: #660033;
+}
+
+/* Del 2 */
+#del2 {
+  background-color: #483d8b;
+  color: #ffd700;
+}
+
+/* Del 3 */
+#del3 {
+  background-color: #8b0000;
+  color: #00ffff;
+}
+
+footer {
+  background: #222831;
+  color: #f5f5f5;
+  padding: 20px 16px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #f5f5f5;
+}
+
+.kilder {
+  margin-top: 16px;
+  font-size: 0.95rem;
+}
+
+.kilder ul {
+  padding-left: 20px;
+}
+
+.topp-lenke {
+  display: inline-block;
+  margin-top: 28px;
+  font-weight: bold;
+}
+
