@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Skoleoppgave om universell utforming, WCAG og Uutilsynet - en bevisst stygg, men WCAG AA-godkjent nettside.">
+  <title>Universell utforming og WCAG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#innhold">Hopp til innhold</a>
+
+  <header id="topp">
+    <h1>Universell utforming på nett</h1>
+    <p>En stygg, men universelt utformet nettside om universell utforming, WCAG og Uutilsynet.</p>
+  </header>
+
+  <nav aria-label="Sideinnhold">
+    <ul>
+      <li><a href="#del1">1. Universell utforming og WCAG</a></li>
+      <li><a href="#del2">2. Konsekvenser</a></li>
+      <li><a href="#del3">3. Uutilsynet</a></li>
+    </ul>
+  </nav>
+
+  <main id="innhold">
+
+    <section id="del1" aria-labelledby="del1-tittel">
+      <div class="section-inner">
+        <h2 id="del1-tittel">Hva menes med universell utforming, og hva står WCAG for?</h2>
+
+        <article>
+          <h3>Svar</h3>
+          <p>
+            Universell utforming betyr at produkter, tjenester og omgivelser skal utformes slik at
+            de kan brukes av alle mennesker, i så stor grad som mulig, uten behov for tilpasning
+            eller spesialløsninger. På nett handler dette om at nettsider og apper skal fungere
+            uansett om du bruker mus, tastatur, skjermleser eller andre hjelpemidler, og uansett om
+            du har nedsatt syn, hørsel, motorikk eller kognisjon.
+          </p>
+          <p>
+            <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> står for
+            <span lang="en">Web Content Accessibility Guidelines</span>, og er en internasjonal
+            standard utviklet av <abbr title="World Wide Web Consortium">W3C</abbr> gjennom
+            initiativet Web Accessibility Initiative (WAI). WCAG samler krav og retningslinjer for
+            hvordan digitalt innhold bør lages for å være tilgjengelig, og kravene er delt inn i
+            fire hovedprinsipper: at innhold skal være mulig å oppfatte, mulig å betjene,
+            forståelig og robust.
+          </p>
+          <p>
+            Standarden har tre samsvarsnivåer: A (lavest), AA og AAA (høyest). I Norge er
+            nivå AA i WCAG lagt til grunn i forskriften om universell utforming av
+            <abbr title="informasjons- og kommunikasjonsteknologi">ikt</abbr>-løsninger, som
+            virksomheter i offentlig og privat sektor er pålagt å følge. Det er derfor AA-kravene
+            denne siden er testet opp mot, blant annet kravet til fargekontrast.
+          </p>
+        </article>
+
+        <figure>
+          <img src="universell-utforming.svg"
+               alt="Illustrasjon av en nettside i midten, koblet til fire symboler: et øye for syn, en høyttaler med lydbølger for hørsel, et tastatur for motorikk og en lyspære for forståelse.">
+          <figcaption>Samme nettside skal fungere enten du bruker syn, hørsel, tastatur eller trenger enkelt språk.</figcaption>
+        </figure>
+
+        <p><a class="topp-lenke" href="#topp">↑ Tilbake til toppen</a></p>
+      </div>
+    </section>
+
+    <section id="del2" aria-labelledby="del2-tittel">
+      <div class="section-inner">
+        <h2 id="del2-tittel">Hva kan være en konsekvens dersom vi lar være å forholde oss til universell utforming?</h2>
+
+        <article>
+          <h3>Svar</h3>
+          <p>
+            Dersom nettsider, apper eller fysiske omgivelser ikke er universelt utformet, blir
+            grupper av mennesker utestengt fra tjenester andre tar for gitt. En person som er
+            avhengig av skjermleser kan for eksempel bli helt hindret i å søke jobb, betale
+            regninger eller lese viktig informasjon fra det offentlige, dersom nettsiden mangler
+            alternativ tekst, riktig struktur eller god nok kontrast. I den fysiske verden kan en
+            trapp uten rampe eller heis stenge en rullestolbruker ute fra en bygning helt og
+            holdent, selv om alle andre kommer fritt inn.
+          </p>
+          <p>
+            Slik ekskludering har både menneskelige og samfunnsmessige konsekvenser: enkeltpersoner
+            mister muligheten til å delta i samfunnet på lik linje med andre, mens virksomheter
+            risikerer pålegg, tvangsmulkt (dagbøter) og dårlig omdømme dersom de bryter kravene i
+            regelverket om universell utforming. Dette er ikke bare en teoretisk risiko: Universitetet
+            i Bergen fikk i 2021 en dagbot på 150 000 kroner fra Uutilsynet etter et tilsyn, fordi
+            digitale løsninger ikke oppfylte kravene.
+          </p>
+        </article>
+
+        <figure>
+          <img src="konsekvens.svg"
+               alt="Illustrasjon av en rullestolbruker til venstre som stoppes av et forbudsskilt og en trapp uten rampe, mens tjenesten de skal bruke står oppe på plattformen bak trappen.">
+          <figcaption>Uten rampe eller alternativ vei blir tjenesten helt utilgjengelig for noen.</figcaption>
+        </figure>
+
+        <p><a class="topp-lenke" href="#topp">↑ Tilbake til toppen</a></p>
+      </div>
+    </section>
+
+    <section id="del3" aria-labelledby="del3-tittel">
+      <div class="section-inner">
+        <h2 id="del3-tittel">Hvem er Uutilsynet, og hva er deres primæroppgaver?</h2>
+
+        <article>
+          <h3>Svar</h3>
+          <p>
+            <a href="https://www.uutilsynet.no/">Uutilsynet</a> (Tilsynet for universell utforming
+            av ikt) er en del av Digitaliseringsdirektoratet (Digdir), og har ført tilsyn med
+            regelverket siden 1. juli 2014. Tilsynet skal sørge for at nettsider, apper og
+            selvbetjeningsautomater i både offentlig og privat sektor følger kravene til
+            universell utforming, slik at flest mulig kan bruke digitale tjenester uavhengig av
+            funksjonsevne. Visjonen til tilsynet er et samfunn uten digitale barrierer.
+          </p>
+          <p>
+            Blant primæroppgavene til Uutilsynet er å føre tilsyn og kontroll med virksomheter,
+            blant annet gjennom stikkprøver, forenklet automatisk kontroll av offentlige nettsteder
+            og større sektortilsyn rettet mot enkeltbransjer over tid - for eksempel grunnskolen i
+            2023 og helsesektoren i 2025–2026. Oppdager tilsynet brudd på regelverket, kan
+            virksomheten få pålegg om retting, og i verste fall tvangsmulkt dersom feilene ikke blir
+            rettet innen fristen (vanligvis ti virkedager). I tillegg jobber tilsynet med veiledning
+            og informasjon, slik at virksomheter forstår hvordan kravene i WCAG kan oppfylles i
+            praksis, blant annet gjennom nettsiden uutilsynet.no, webinar og kurs.
+          </p>
+          <p>
+            Uutilsynet ble opprettet i 2013, opprinnelig som en del av det tidligere Difi
+            (Direktoratet for forvaltning og ikt), og er i dag organisert under
+            Digitaliseringsdirektoratet (Digdir). Offentlige virksomheter er også pålagt å
+            publisere en egen tilgjengelighetserklæring for sine nettsteder, som Uutilsynet
+            kontrollerer at faktisk finnes og er riktig utfylt.
+          </p>
+        </article>
+
+        <figure>
+          <img src="uutilsynet.svg"
+               alt="Illustrasjon av en nettside som kontrolleres punkt for punkt: to krav er merket med grønn hake, ett med rødt kryss, og et forstørrelsesglass gransker punktet som ikke er godkjent. Ved siden av ligger en tilsynsrapport.">
+          <figcaption>Uutilsynet kontrollerer krav for krav, og gir pålegg om retting der noe ikke er godkjent.</figcaption>
+        </figure>
+
+        <aside class="kilder" aria-label="Kilder for denne siden">
+          <h3>Kilder</h3>
+          <ul>
+            <li><a href="https://www.uutilsynet.no/">Uutilsynet.no</a></li>
+            <li><a href="https://www.w3.org/WAI/">W3.org – Web Accessibility Initiative (WAI)</a></li>
+            <li>NDLA – Universell utforming (lenke fra forrige oppgave)</li>
+          </ul>
+        </aside>
+
+        <p><a class="topp-lenke" href="#topp">↑ Tilbake til toppen</a></p>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <p>Skoleoppgave om universell utforming og WCAG.</p>
+  </footer>
+</body>
+</html>
+
