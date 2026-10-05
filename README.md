@@ -2,4 +2,4 @@
 
 ## Ts is NOT copied if it was plagiarised then Slava would castrate me.
 
-### So some credit to him.
+### So some credits given to Viacheslav Zhydkov.
